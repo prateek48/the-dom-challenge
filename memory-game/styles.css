@@ -1,0 +1,44 @@
+body {
+  background-color: rgba(255, 217, 0, 0.801);
+}
+#score-list {
+  display: flex;
+  justify-content: space-around;
+}
+#score,
+#highscore {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: chocolate;
+}
+#card-list {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: 20px;
+  border: 1px solid chocolate;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#bu {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 70px;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  color: rgba(255, 0, 0, 0.603);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
