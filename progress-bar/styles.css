@@ -1,0 +1,15 @@
+.progress-bar {
+    width: 0%;
+
+    height: 50px;
+    background-color: #90EE90;
+   
+  }
+  
+  .load {
+
+
+    width: 100%;
+    transition: width 3s linear;
+   
+  }
